@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+}
+
+.image {
+  width: 100vw;
+  height: 80vh;
+
+  object-fit: cover;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  height: 20vh;
+  padding: 40px 20px;
+
+  color: #888888;
+
+  opacity: 0;
+  transform: translateY(25px);
+  transition: 0.4s all linear;
+}
+
+.reveal {
+  opacity: 1;
+  transform: translateY(0);
+}
